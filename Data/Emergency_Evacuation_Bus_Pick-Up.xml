@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8"?><metadata>
+    <idinfo>
+        <citation>
+            <citeinfo>
+                <origin/>
+                <pubdate>20050101</pubdate>
+                <title>psde4.EOC_BATCH.HurricaneBusStop</title>
+                <geoform>vector digital data</geoform>
+                <pubinfo>
+                    <pubplace/>
+                    <publish>Soheila Ajabshir</publish>
+                </pubinfo>
+            </citeinfo>
+        </citation>
+        <descript>
+            <abstract>For those individuals who do not have their own transportation to the Evacuation Centers, this is provided by Miami-Dade via emergency evacuation bus pick-up sites throughout the County's evacuation zones.</abstract>
+            <purpose>Miami-Dade County Active Emergency Evacuation Bus Pick-Up Sites</purpose>
+            <supplinf>Procedures_Used:
+All the signs were checked via field inspection.  Using this information a table was created, which was geocoded against Street Network our base layer to create the Hurricane Evacuation Bus Stop layer.
+
+Revisions:
+Date:  August 14th, 2019        By:  Josh Brashears
+Reason:  Implemented USPS standards to all addresses.  Changed the values in the CITY field from municipality names to USPS mailing cities.  Added two new fields:  MUNICID (Text 2) and MUNICIPALITY (Text 25).  Populated these two new fields from MDC.Municipality_poly.
+
+Date:  July, 2019        By:  Soheila Ajabshir
+Reason:  Implemented COM standards to all addresses.
+
+Date: April 2018                By: B. Oung
+Reason: Added the following fields: Active, PickupFreq, RouteNo, CreatedBy, CreatedDate, ModifyBy, ModifyDate and GlobalID to accommadate Commission Cava's resolution and for editing and replication purposes. Domains were created. 
+
+Date:  May 16, 2016         By:  Josh Brashears
+Reason:  Received confirmation from Transit regarding changes to seven names and/or addresses.  This update only includes these seven changes and does not comprise the full 2016 hurricane season update.  The complete and final update is pending Transit's check of all the signs and publication of the official list.
+
+The seven changes are:
+
+     THE COVE CONDIMINIUM COMMUNITY, 21163 SW 85TH AVE 
+     SOUTH DADE CAMP, 13400 SW 312TH ST 
+     MIAMI-DADE COLLEGE, 11011 SW 104TH ST 
+     COUNCIL TOWERS SOUTH, 599 COLLINS AVE 
+     STREET LOCATION, 908 ALTON RD 
+     STREET LOCATION, 1965 ALTON RD 
+     WILLIAM F. DICKINSON COMMUNITY CENTER, 29 NE 16TH ST
+
+Date:  July 15, 2015         By:  Ivonne Rodriguez
+Reason:  2015 Hurricane Season update. 
+Three attributes have been changed: • Easter Shores Shopping Center name changed to Intra Coastal Mall • Jones Fishing Camp Trailer Park name changed to Mack’s Camp Trailer Park;  • Honey Hill NW 199 ST &amp; NW 49 CT Address changes to 4955 NW 199 ST.
+
+
+Revisions:
+Date:  June 13, 2014        By:  Josh Brashears
+Reason:  2014 Hurricane Season update.  Some names and addresses were changed, with Transit’s input.  Some signs were re-positioned and/or corrected.  More positional corrections are pending and may be implemented before next hurricane season.
+
+Date: April 2014                 By: S. Ajabshir
+Reason: Made corrections to some attribute in Evacation Zone field.
+
+Date: March 2014               By: Maribel Valderrama
+Reason: Populated the IDs, LAT/LON, X_COORD and Y_COORD  for LARRY/ PENNY THOMPSON PARK, MIAMI DADE COLLEGE, WEST KENDALL TRANSIT TERMINAL, DADELAND NORTH METRORAIL STATION, CORAL REEF PARK AND RIDE LOT, and LANDMARK MOBILE HOME PARK. 
+
+Date: June 2013                  By: V. Calle
+Reason: The changes that were made were the location of five of the points, I updated the addresses for 12 locations, changed the names for 8 locations and added 6 new bus stops.
+
+Date: August 2012               By: S. Ajabshir,
+Reason: To move the bus stop for GATOR PARK MHP to its correct location.
+
+Date: July 2010                   By: S. Ajabshir, C. Hall &amp; N. Alvarez
+Reason: Assisted DEM with annual hurricane update. Deleted  Landmark Mobile Home park and removed name of  closed mobile homes.  As per DEM Miami-Everglades KampGround at 20675 SW 162nd Ave and Larry/Penny Thompson at 12451 SW 184th St., do not need bus stops.
+
+Date: June 2008                By: Soheila Ajabshir &amp; Craig Hall (DEM&amp;HS)
+Blue Lake Mobile Home Park was removed.  Leisure East MHP was renamed to Palm Garden. Sun Haven Trailer Park does not exist, but the sign is used for Coe's Trailer Court and Dixie Trailer Park in close proximity.
+
+Revisions:
+Date: June 2007                 By: Soheila Ajabshir
+Reason: Annual Hurricane update. Total of about 70 points were re-aligned to actual bus stop.
+
+Date: October 2006            By: GIS Technical Support Staff
+Reason: The data was converted from the legacy coverage format to the ArcGIS Geodatabase feature class format.
+
+Date:   June 2006                     By: N. Alvarez
+Reason: Yearly update. Six hurricane evacuation bus stops added.
+
+Date:   July 2005                     By: J. Ruiz
+Reason: Received updated from OEM. Five bus stops were removed and some were aligned.
+
+Date:   Sept. 2004                    By: N. Alvarez
+Reason: Converted lhurbstp shape file received from OEM to coverage.  Added bus stop: Rebecca Towers South and North and South Shore Community Center. IDs 138, 139 &amp; 140.
+
+Date:   August, 2004                  By: N. Alvarez
+Reason: Added bus stop Stanely Alrod UTD Towers requested by the Office of Emergency Management (OEM) and correct City names to spell exactly as it is in Munic.
+
+Date:   June 2004                      By: N. Alvarez
+Reason: A  shape file of Hurricane Evacuation Bus Stop was converted to coverage.  File was provided by the Office of Emergency Management (OEM).
+
+Reviews_Applied_to_Data:
+Data is reviewed by a OEM, GIS Data Administration and a Metadata Administration.
+
+Other_References_Cited:
+Layer was created by Soheila Ajabshir of Office of Emergency Management Miami-Dade County,  (GIS)
+
+Notes:
+Used Aerials to verify a few points that could not be verify by phone, etc.</supplinf>
+        </descript>
+        <status>
+            <progress>In work</progress>
+            <update>Annually</update>
+        </status>
+        <spdom>
+            <bounding>
+                <westbc>-80.583497</westbc>
+                <eastbc>-80.119350</eastbc>
+                <northbc>25.970776</northbc>
+                <southbc>25.412916</southbc>
+            </bounding>
+        </spdom>
+        <keywords>
+            <theme>
+                <themekt>None</themekt>
+                <themekey>Hurricane Bus Stop locations</themekey>
+            </theme>
+            <theme>
+                <themekt>ISO 19115 Topic Categories</themekt>
+                <themekey>location</themekey>
+            </theme>
+            <place>
+                <placekt>None</placekt>
+                <placekey>Miami-Dade County</placekey>
+                <placekey>Florida</placekey>
+            </place>
+        </keywords>
+        <accconst>Public Access.</accconst>
+        <useconst>Miami-Dade County provides this data for use "as is". The areas depicted by this map/data are approximate, and are not accurate to surveying or engineering standards. The maps/data shown here are for illustration purposes only and are not suitable for site-specific decision making. Information found here should not be used for making financial or any other commitments. Miami-Dade County provides this information with the understanding that it is not guaranteed to be accurate, correct or complete and conclusions drawn from such information are the sole responsibility of the user. While every effort has been made to ensure the accuracy, correctness and timeliness of materials presented, Miami-Dade County assumes no responsibility for errors or omissions, even if Miami-Dade County is advised of the possibility of such damage.</useconst>
+        <ptcontac>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>Miami-Dade County, ETSD</cntorg>
+                    <cntper>Soheila Ajabshir</cntper>
+                </cntorgp>
+                <cntaddr>
+                    <addrtype>mailing</addrtype>
+                    <address>9300 NW 41 Street</address>
+                    <city>Doral</city>
+                    <state>FL</state>
+                    <postal>33178</postal>
+                </cntaddr>
+                <cntvoice>(305) 468-5417</cntvoice>
+            </cntinfo>
+        </ptcontac>
+        <datacred>Miami-Dade County GIS Technical Support Group</datacred>
+        <secinfo>
+            <secsys>None</secsys>
+            <secclass>Unclassified</secclass>
+            <sechandl>None</sechandl>
+        </secinfo>
+        <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.4.1.5686</native>
+    </idinfo>
+    <dataqual>
+        <attracc>
+            <attraccr>See Entity_Attribute_Information</attraccr>
+            <qattracc>
+                <attraccv>See Explanation</attraccv>
+                <attracce>Attribute accuracy is described, where present, with each attribute defined in the Entity and Attribute Section.</attracce>
+            </qattracc>
+        </attracc>
+        <logic>Point features present.</logic>
+        <complete>Only data that was needed for the purpose of this layer was used. For additional information, kindly contact DEM.</complete>
+        <posacc>
+            <horizpa>
+                <horizpar>Is +/- 50 feet, which is based on the Street Network.</horizpar>
+            </horizpa>
+        </posacc>
+        <lineage>
+            <srcinfo>
+                <srcscale>0</srcscale>
+                <typesrc>None</typesrc>
+            </srcinfo>
+            <procstep>
+                <procdesc>DNBA ADDXY LHURBSTP POINT</procdesc>
+                <srcused>None</srcused>
+                <procdate>20060621</procdate>
+                <srcprod>None</srcprod>
+            </procstep>
+            <procstep>
+                <procdesc>DNBA DOCUMENT LHURBSTP UPDATE DNBA</procdesc>
+                <srcused>None</srcused>
+                <procdate>20060621</procdate>
+                <srcprod>None</srcprod>
+            </procstep>
+            <procstep>
+                <procdesc>DNBA SHAPEARC LHURBSTP LHURBSTP</procdesc>
+                <srcused>None</srcused>
+                <procdate>20060621</procdate>
+                <srcprod>None</srcprod>
+            </procstep>
+            <procstep>
+                <procdesc>DRUIZJ COPY ~DNBA/GROUP/BIBI/PROJ2006/LHURBSTP</procdesc>
+                <srcused>None</srcused>
+                <procdate>20060621</procdate>
+                <srcprod>None</srcprod>
+            </procstep>
+            <procstep>
+                <procdesc>DNBA DOCUMENT LHURBSTP COPY /DEV_STLFILES/DATA2/PRD/COVERS/LHURBSTP DNBA</procdesc>
+                <srcused>None</srcused>
+                <procdate>20060621</procdate>
+                <srcprod>None</srcprod>
+            </procstep>
+            <procstep>
+                <procdesc>GISDML COPY ~RUIZJ/COVERS/LHURBSTP LHURBSTP</procdesc>
+                <srcused>None</srcused>
+                <procdate>20060623</procdate>
+                <srcprod>None</srcprod>
+            </procstep>
+            <procstep>
+                <procdesc>RUIZJ DOCUMENT LHURBSTP UPDATE RUIZJ</procdesc>
+                <srcused>None</srcused>
+                <procdate>20060623</procdate>
+                <srcprod>None</srcprod>
+            </procstep>
+            <procstep>
+                <procdesc>RUIZJ IMPORT COVER LHURBSTP.E00 LHURBSTP</procdesc>
+                <srcused>None</srcused>
+                <procdate>20060623</procdate>
+                <srcprod>None</srcprod>
+            </procstep>
+            <procstep>
+                <procdesc>GISDML DOCUMENT LHURBSTP UPDATE GISDML</procdesc>
+                <srcused>None</srcused>
+                <procdate>20060623</procdate>
+                <srcprod>None</srcprod>
+            </procstep>
+            <procstep>
+                <procdesc>GISDML EXPORT COVER $PROD/COVERS/LHURBSTP $PROD/PUBLIC/E00/LHURBSTP NONE</procdesc>
+                <srcused>None</srcused>
+                <procdate>20060624</procdate>
+                <srcprod>None</srcprod>
+            </procstep>
+        </lineage>
+    </dataqual>
+    <spdoinfo>
+        <direct>Vector</direct>
+        <ptvctinf>
+            <sdtsterm>
+                <sdtstype>Entity point</sdtstype>
+                <ptvctcnt>129</ptvctcnt>
+            </sdtsterm>
+        </ptvctinf>
+    </spdoinfo>
+    <eainfo>
+        <detailed>
+            <enttyp>
+                <enttypl>psde4.EOC_BATCH.HurricaneBusStop</enttypl>
+            </enttyp>
+            <attr>
+                <attrlabl>OBJECTID</attrlabl>
+                <attrdef>Internal feature number.</attrdef>
+                <attrdefs>ESRI</attrdefs>
+                <attrdomv>
+                                        
+                    <udom>Sequential unique whole numbers that are automatically generated.</udom>
+                                    
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>ID</attrlabl>
+                <attrdef>Hurricane Bus Stop ID</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>FACILITY</attrlabl>
+                <attrdef>Bus Stop Facility </attrdef>
+            </attr>
+            <attr>
+                <attrlabl>ADDRESS</attrlabl>
+                <attrdef>Facility Address</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>CITY</attrlabl>
+                <attrdef>Municipality</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>ZIPCODE</attrlabl>
+                <attrdef>Zipcode</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>EVACZONE</attrlabl>
+                <attrdef>Evacuation Zone</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>VICINITY</attrlabl>
+                <attrdef>Location within the County</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>ACTIVE</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>PICKUPFREQ</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>ROUTENO</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>LAT</attrlabl>
+                <attrdef>Latitude</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>LON</attrlabl>
+                <attrdef>Longitude</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>POINT_X</attrlabl>
+                <attrdef>Stateplane X Coordinate</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>POINT_Y</attrlabl>
+                <attrdef>Stateplane Y Coordinate</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>CREATEDBY</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>CREATEDDATE</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>MODIFYBY</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>MODIFYDATE</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>GlobalID</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>SHAPE</attrlabl>
+                <attrdef>Feature geometry.</attrdef>
+                <attrdefs>ESRI</attrdefs>
+                <attrdomv>
+                                        
+                    <udom>Coordinates defining the features.</udom>
+                                    
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>MUNICID</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>MUNICIPALITY</attrlabl>
+            </attr>
+        </detailed>
+        <overview>
+            <eaover>Coded Values
+---------------------
+EvacZone
+A= Evacuation Zone A
+A 8.5 = Evacuation Zone A 8.5 mile
+B= Evacuation Zone B
+MHP = Mobile Home Park</eaover>
+        </overview>
+    </eainfo>
+    <metainfo>
+        <metd>20190826</metd>
+        <metc>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>Miami-Dade County, ETSD</cntorg>
+                    <cntper>Soheila Ajabshir</cntper>
+                </cntorgp>
+                <cntaddr>
+                    <addrtype>mailing</addrtype>
+                    <address>9300 NW 41 Street</address>
+                    <city>Doral</city>
+                    <state>FL</state>
+                    <postal>33178</postal>
+                </cntaddr>
+                <cntvoice>(305) 468-5417</cntvoice>
+            </cntinfo>
+        </metc>
+        <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+        <metstdv>FGDC-STD-001-1998</metstdv>
+        <mettc>local time</mettc>
+        <metsi>
+            <metscs>None</metscs>
+            <metsc>Unclassified</metsc>
+            <metshd>None</metshd>
+        </metsi>
+    </metainfo>
+</metadata>
